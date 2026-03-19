@@ -41,5 +41,5 @@ private static final String PASSWORD = "1234";
 This creates `target/steganography-desktop-1.0.jar`
 
 ### 4. Run
-java -jar target/steganography-desktop-1.0.jar
+java -jar target/Steganography-1.0.jar 
 
