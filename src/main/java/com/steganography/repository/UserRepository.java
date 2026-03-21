@@ -52,6 +52,7 @@ public class UserRepository {
             return ps.executeUpdate() == 1;
 
         } catch (SQLException e) {
+            // Error
             System.err.println("Registration failed: " + e.getMessage());
             return false;
         }
